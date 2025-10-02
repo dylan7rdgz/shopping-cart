@@ -1,0 +1,43 @@
+/* Banner */
+
+.banner {
+    color: white;
+    margin: 0em;
+    padding: 1em;
+}
+
+.banner-blue {
+    background-color: blue;
+}
+
+.banner-green {
+    background-color: green;
+}
+
+/* Dropdown */
+
+.dropdown-item {
+    display: flex;
+}
+
+.dropdown-item {
+    gap: 2em;
+}
+
+.dropdown-list[open] ul{
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-list li {
+    list-style-type: none;
+    z-index: 1;
+}
+
+/* Header */
+
+.app-header {
+    height: 4em;
+    background-color: antiquewhite;    
+}
+
